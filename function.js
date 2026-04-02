@@ -20,14 +20,3 @@ for (let i = 0; i < users.length; i++) {
     }
 }
 
-let weather=0;
-function check_weather(temperature) {
-    if (temperature > 25) {
-        return "It is a hot day!";
-    } else {
-        return "It is a lovely day!";
-    }
-}
-let answer=check_weather(temperature);
-console.log("your temperature:",temperature);
-console.log("answer:",answer);
