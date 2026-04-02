@@ -14,29 +14,7 @@ let guest3 = "hello";
 let guest4 = "Apple123";
 
 // Guest1
-if (guest1 === "Apple123") {
-    console.log("Guest1: Access Granted");
-} else {
-    console.log("Guest1: Access Denied");
-}
-
-// Guest2
-if (guest2 === "Apple123") {
-    console.log("Guest2: Access Granted");
-} else {
-    console.log("Guest2: Access Denied");
-}
-
-// Guest3
-if (guest3 === "Apple123") {
-    console.log("Guest3: Access Granted");
-} else {
-    console.log("Guest3: Access Denied");
-}
-
-// Guest4
-if (guest4 === "Apple123") {
-    console.log("Guest4: Access Granted");
-} else {
-    console.log("Guest4: Access Denied");
-}
+console.log("guest1 : " + enter_club(guest1));
+console.log("guest2 :" + enter_club(guest2));
+console.log("guest3:" + enter_club(guest3));
+console.log("guest4:" + enter_club(guest4));
